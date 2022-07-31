@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+    background: url("1194989365666493578pattern-dots-square-grid-01.svg.med (2) (2) (2) (1).png");
+    font-family: Tahoma;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+}
+
+.card {
+  width: 400px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 5px 10px #ccc;
+  border-radius: 10px;
+  padding: 20px
+}
+
+.card-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+nav {
+  width: 750px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+nav::before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #353535;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+nav ul li a:hover {
+  background: #4169E1;
+  transition: all 0.17s ease-out;
+}
