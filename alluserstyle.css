@@ -205,3 +205,44 @@ nav ul li a:hover {
   display: block;
   text-decoration: none;
 }
+
+
+
+
+
+.spisokoleg {
+  background-color: white;
+  height: 100px;
+  width: 380px;
+  font-size: 23px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px #d6d6d6;
+  text-align: right;
+  margin: 20px;
+  position: absolute;
+  top: 510px;
+}
+
+.card-photooleg {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 45px;
+  position: absolute;
+  top: 495px;
+  left: -10px;
+}
+
+.textoleg {
+  display: block;
+  position: absolute;
+  font-size: 23px;
+  margin: 53px;
+  left: 80px;
+  top: 508px;
+}
+
+.textoleg a {
+  display: block;
+  text-decoration: none;
