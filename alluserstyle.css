@@ -1,11 +1,10 @@
-
 *{
   margin: 0;
   padding: 0;
 }
 body {
   background: url(okay.webp);
-  background-color: #f5f5f5;
+  background-color: #f5f5f2;;
   color: #202020;
   font-family: sans-serif;
 }
@@ -62,7 +61,7 @@ nav ul li a:hover {
   }
 
 .block_1 {
-  width: 1700px;
+  width: 400px;
   height: 850px;
   background: #f5f5f2;;
   border-radius: 15px;
@@ -83,10 +82,10 @@ nav ul li a:hover {
     box-shadow: 0 2px 5px #d6d6d6;
     text-align: right;
     margin: 20px;
-    transform: translate(0,120px);
-    -webkit-transform: translate(0,120px);
-    -o-transform: translate(0,120px);
-    -moz-transform: translate(0,120px);
+    transform: translate(0,90px);
+    -webkit-transform: translate(0,90px);
+    -o-transform: translate(0,90px);
+    -moz-transform: translate(0,90px);
     position: absolute;
   }
   .spisok1 {
@@ -98,10 +97,10 @@ nav ul li a:hover {
   box-shadow: 0 2px 5px #d6d6d6;
   text-align: right;
   margin: 20px;
-  transform: translate(0,260px);
-  -webkit-transform: translate(0,260px);
-  -o-transform: translate(0,260px);
-  -moz-transform: translate(0,260px);
+  transform: translate(0,215px);
+  -webkit-transform: translate(0,215px);
+  -o-transform: translate(0,215px);
+  -moz-transform: translate(0,215px);
   position: absolute;
 }
 .spisok2 {
@@ -113,10 +112,10 @@ border-radius: 15px;
 box-shadow: 0 2px 5px #d6d6d6;
 text-align: right;
 margin: 20px;
-transform: translate(0,400px);
--webkit-transform: translate(0,400px);
--o-transform: translate(0,400px);
--moz-transform: translate(0,400px);
+transform: translate(0,340px);
+-webkit-transform: translate(0,340px);
+-o-transform: translate(0,340px);
+-moz-transform: translate(0,340px);
 position: absolute;
 }
 .spisok3 {
@@ -128,10 +127,10 @@ border-radius: 15px;
 box-shadow: 0 2px 5px #d6d6d6;
 text-align: right;
 margin: 20px;
-transform: translate(0,540px);
--webkit-transform: translate(0,540px);
--o-transform: translate(0,540px);
--moz-transform: translate(0,540px);
+transform: translate(0,468px);
+-webkit-transform: translate(0,468px);
+-o-transform: translate(0,468px);
+-moz-transform: translate(0,468px);
 position: absolute;
 }
 .spisok4 {
@@ -143,10 +142,10 @@ border-radius: 15px;
 box-shadow: 0 2px 5px #d6d6d6;
 text-align: right;
 margin: 20px;
-transform: translate(0,680px);
--webkit-transform: translate(0,680px);
--o-transform: translate(0,680px);
--moz-transform: translate(0,680px);
+transform: translate(0,595px);
+-webkit-transform: translate(0,595px);
+-o-transform: translate(0,595px);
+-moz-transform: translate(0,595px);
 position: absolute;
 }
 .text {
@@ -158,7 +157,7 @@ position: absolute;
  -webkit-transform: translate(0,170px);
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
- top: 7px;
+ top: -23px;
    margin-left: 70px;
 }
 .text a  {
@@ -178,7 +177,7 @@ position: absolute;
   -moz-transform: translate(-135px,0); /** Firefox **/
   border-radius: 100px;
   border: 3px solid white;
-  top: 147px;
+  top: 117px;
   width: 80px;
 }
 .textghoul {
@@ -186,10 +185,10 @@ position: absolute;
  position: absolute;
  text-align: center;
  font-size: 23px;
- transform: translate(0,170px);
- -webkit-transform: translate(0,170px);
- -o-transform: translate(0,170px);
- -moz-transform: translate(0,170px);
+ transform: translate(0,125px);
+ -webkit-transform: translate(0,125px);
+ -o-transform: translate(0,125px);
+ -moz-transform: translate(0,125px);
  top: 146px;
  margin-left: 62px;
 }
@@ -209,7 +208,7 @@ position: absolute;
   -o-transform: translate(-135px,0); /** Opera **/
   -moz-transform: translate(-135px,0); /** Firefox **/
   border-radius: 50%;
-  top: 290px;
+  top: 245px;
   width: 80px;
 }
 .textsanya {
@@ -221,14 +220,14 @@ position: absolute;
  -webkit-transform: translate(0,170px);
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
- top: 290px;
-   margin-left: 70px;
+  top: 226px;
+  margin-left: 70px;
 }
 .textsanya a  {
   display: block;
   text-decoration: none;
-   color: #111111;
-   text-align: center;
+  color: #111111;
+  text-align: center;
 }
 .card-photosanya {
   display: block;
@@ -240,7 +239,7 @@ position: absolute;
   -o-transform: translate(-135px,0); /** Opera **/
   -moz-transform: translate(-135px,0); /** Firefox **/
   border-radius: 50%;
-  top: 430px;
+  top: 370px;
   width: 80px;
 }
 .textros {
@@ -252,7 +251,7 @@ position: absolute;
   -webkit-transform: translate(0,170px);
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
-  top: 428px;
+  top: 355px;
     margin-left: 70px;
 }
 .textros a  {
@@ -271,7 +270,7 @@ position: absolute;
   -o-transform: translate(-135px,0); /** Opera **/
   -moz-transform: translate(-135px,0); /** Firefox **/
   border-radius: 100px;
-  top: 569px;
+  top: 497px;
   width: 80px;
 }
 .textoleg {
@@ -283,7 +282,7 @@ position: absolute;
   -webkit-transform: translate(0,170px);
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
-  top: 569px;
+  top: 481px;
     margin-left: 70px;
 }
 .textoleg a  {
@@ -302,6 +301,6 @@ position: absolute;
   -o-transform: translate(-135px,0); /** Opera **/
   -moz-transform: translate(-135px,0); /** Firefox **/
   border-radius: 100px;
-  top: 710px;
+  top: 625px;
   width: 80px;
 }
