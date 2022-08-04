@@ -148,6 +148,22 @@ transform: translate(0,595px);
 -moz-transform: translate(0,595px);
 position: absolute;
 }
+.spisok5 {
+background-color: white;
+height: 100px;
+width: 380px;
+font-size: 23px;
+border-radius: 15px;
+box-shadow: 0 2px 5px #d6d6d6;
+text-align: right;
+margin: 20px;
+transform: translate(0,723px);
+-webkit-transform: translate(0,723px);
+-o-transform: translate(0,723px);
+-moz-transform: translate(0,723px);
+position: absolute;
+}
+
 .text {
  display: block;
  position: absolute;
@@ -221,7 +237,7 @@ position: absolute;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
   top: 226px;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .textsanya a  {
   display: block;
@@ -252,7 +268,7 @@ position: absolute;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 355px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .textros a  {
   display: block;
@@ -282,8 +298,8 @@ position: absolute;
   -webkit-transform: translate(0,170px);
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
-  top: 481px;
-    margin-left: 70px;
+  top: 483px;
+    margin-left: 48px;
 }
 .textoleg a  {
   display: block;
@@ -304,3 +320,34 @@ position: absolute;
   top: 625px;
   width: 80px;
 }
+
+.textden {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    transform: translate(0,170px);
+    -webkit-transform: translate(0,170px);
+    -o-transform: translate(0,170px);
+    -moz-transform: translate(0,170px);
+    top: 610px;
+    margin-left: 30px;
+  }
+  .textden a  {
+    display: block;
+    text-decoration: none;
+    color: #111111;
+    text-align: center;
+  }
+  .card-photoden {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 1px;
+    transform: translate(-135px,0);
+    -webkit-transform: translate(-135px,0); /** Chrome & Safari **/
+    -o-transform: translate(-135px,0); /** Opera **/
+    -moz-transform: translate(-135px,0); /** Firefox **/
+    border-radius: 100px;
+    top: 753px;
+    width: 80px;
