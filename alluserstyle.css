@@ -4,7 +4,7 @@
 }
 body {
   background: url(okay.webp);
-  background-color: #f5f5f2;;
+  background-color: #f5f5f2;
   color: #202020;
   font-family: sans-serif;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 .block_1 {
   width: 400px;
   height: 850px;
-  background: #f5f5f2;;
+  background: #f5f5f2;
   border-radius: 15px;
   position: absolute;
   bottom: 20 auto;
@@ -86,7 +86,8 @@ nav ul li a:hover {
     -webkit-transform: translate(0,90px);
     -o-transform: translate(0,90px);
     -moz-transform: translate(0,90px);
-    position: absolute;
+    position: fixed;
+    margin-right: 500px;
   }
   .spisok1 {
   background-color: white;
@@ -101,7 +102,8 @@ nav ul li a:hover {
   -webkit-transform: translate(0,215px);
   -o-transform: translate(0,215px);
   -moz-transform: translate(0,215px);
-  position: absolute;
+  position: fixed;
+  margin-right: 500px;
 }
 .spisok2 {
 background-color: white;
@@ -116,7 +118,8 @@ transform: translate(0,340px);
 -webkit-transform: translate(0,340px);
 -o-transform: translate(0,340px);
 -moz-transform: translate(0,340px);
-position: absolute;
+position: fixed;
+margin-right: 500px;
 }
 .spisok3 {
 background-color: white;
@@ -131,7 +134,8 @@ transform: translate(0,468px);
 -webkit-transform: translate(0,468px);
 -o-transform: translate(0,468px);
 -moz-transform: translate(0,468px);
-position: absolute;
+position: fixed;
+margin-right: 500px;
 }
 .spisok4 {
 background-color: white;
@@ -146,7 +150,8 @@ transform: translate(0,595px);
 -webkit-transform: translate(0,595px);
 -o-transform: translate(0,595px);
 -moz-transform: translate(0,595px);
-position: absolute;
+position: fixed;
+margin-right: 500px;
 }
 .spisok5 {
 background-color: white;
@@ -161,8 +166,27 @@ transform: translate(0,723px);
 -webkit-transform: translate(0,723px);
 -o-transform: translate(0,723px);
 -moz-transform: translate(0,723px);
-position: absolute;
+position: fixed;
+margin-right: 500px;
 }
+
+.spisok6 {
+background-color: white;
+height: 100px;
+width: 380px;
+font-size: 23px;
+border-radius: 15px;
+box-shadow: 0 2px 5px #d6d6d6;
+text-align: right;
+margin: 20px;
+transform: translate(0,90px);
+-webkit-transform: translate(0,90px);
+-o-transform: translate(0,90px);
+-moz-transform: translate(0,90px);
+position: fixed;
+margin-right: -500px;
+}
+
 
 .text {
  display: block;
@@ -174,7 +198,7 @@ position: absolute;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
  top: -23px;
-   margin-left: 70px;
+ margin-left: -410px;
 }
 .text a  {
   display: block;
@@ -195,7 +219,9 @@ position: absolute;
   border: 3px solid white;
   top: 117px;
   width: 80px;
+  margin-left: -243px;
 }
+
 .textghoul {
  display: block;
  position: absolute;
@@ -206,7 +232,7 @@ position: absolute;
  -o-transform: translate(0,125px);
  -moz-transform: translate(0,125px);
  top: 146px;
- margin-left: 62px;
+ margin-left: -418px;
 }
 .textghoul a  {
   display: block;
@@ -226,6 +252,7 @@ position: absolute;
   border-radius: 50%;
   top: 245px;
   width: 80px;
+  margin-left: -243px;
 }
 .textsanya {
  display: block;
@@ -237,7 +264,7 @@ position: absolute;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
   top: 226px;
-  margin-left: 60px;
+  margin-left: -418px;
 }
 .textsanya a  {
   display: block;
@@ -257,6 +284,7 @@ position: absolute;
   border-radius: 50%;
   top: 370px;
   width: 80px;
+  margin-left: -243px;
 }
 .textros {
   display: block;
@@ -268,7 +296,7 @@ position: absolute;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 355px;
-    margin-left: 60px;
+  margin-left: -423px;
 }
 .textros a  {
   display: block;
@@ -288,6 +316,7 @@ position: absolute;
   border-radius: 100px;
   top: 497px;
   width: 80px;
+  margin-left: -243px;
 }
 .textoleg {
   display: block;
@@ -299,7 +328,7 @@ position: absolute;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 483px;
-    margin-left: 48px;
+  margin-left: -438px;
 }
 .textoleg a  {
   display: block;
@@ -319,6 +348,7 @@ position: absolute;
   border-radius: 100px;
   top: 625px;
   width: 80px;
+  margin-left: -243px;
 }
 
 .textden {
@@ -331,7 +361,7 @@ position: absolute;
     -o-transform: translate(0,170px);
     -moz-transform: translate(0,170px);
     top: 610px;
-    margin-left: 30px;
+    margin-left: -455px;
   }
   .textden a  {
     display: block;
@@ -351,3 +381,39 @@ position: absolute;
     border-radius: 100px;
     top: 753px;
     width: 80px;
+    margin-left: -243px;
+  }
+
+  .texttim {
+   display: block;
+   position: absolute;
+   text-align: center;
+   font-size: 23px;
+   transform: translate(0,170px);
+   -webkit-transform: translate(0,170px);
+   -o-transform: translate(0,170px);
+   -moz-transform: translate(0,170px);
+   top: -23px;
+   margin-left: 560px;
+  }
+  .texttim a  {
+    display: block;
+    text-decoration: none;
+     color: #111111;
+     text-align: center;
+  }
+  .card-phototim {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 1px;
+    transform: translate(-135px,0);
+    -webkit-transform: translate(-135px,0); /** Chrome & Safari **/
+    -o-transform: translate(-135px,0); /** Opera **/
+    -moz-transform: translate(-135px,0); /** Firefox **/
+    border-radius: 100px;
+    border: 3px solid white;
+    top: 117px;
+    width: 80px;
+    margin-left: 257px;
+  }
