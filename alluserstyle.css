@@ -86,7 +86,7 @@ nav ul li a:hover {
     -webkit-transform: translate(0,90px);
     -o-transform: translate(0,90px);
     -moz-transform: translate(0,90px);
-    position: fixed;
+    position: absolute;
     margin-right: 500px;
   }
   .spisok1 {
@@ -102,7 +102,7 @@ nav ul li a:hover {
   -webkit-transform: translate(0,215px);
   -o-transform: translate(0,215px);
   -moz-transform: translate(0,215px);
-  position: fixed;
+  position: absolute;
   margin-right: 500px;
 }
 .spisok2 {
@@ -118,7 +118,7 @@ transform: translate(0,340px);
 -webkit-transform: translate(0,340px);
 -o-transform: translate(0,340px);
 -moz-transform: translate(0,340px);
-position: fixed;
+position: absolute;
 margin-right: 500px;
 }
 .spisok3 {
@@ -134,7 +134,7 @@ transform: translate(0,468px);
 -webkit-transform: translate(0,468px);
 -o-transform: translate(0,468px);
 -moz-transform: translate(0,468px);
-position: fixed;
+position: absolute;
 margin-right: 500px;
 }
 .spisok4 {
@@ -150,7 +150,7 @@ transform: translate(0,595px);
 -webkit-transform: translate(0,595px);
 -o-transform: translate(0,595px);
 -moz-transform: translate(0,595px);
-position: fixed;
+position: absolute;
 margin-right: 500px;
 }
 .spisok5 {
@@ -166,7 +166,7 @@ transform: translate(0,723px);
 -webkit-transform: translate(0,723px);
 -o-transform: translate(0,723px);
 -moz-transform: translate(0,723px);
-position: fixed;
+position: absolute;
 margin-right: 500px;
 }
 
@@ -183,7 +183,7 @@ transform: translate(0,90px);
 -webkit-transform: translate(0,90px);
 -o-transform: translate(0,90px);
 -moz-transform: translate(0,90px);
-position: fixed;
+position: absolute;
 margin-right: -500px;
 }
 
