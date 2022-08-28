@@ -87,7 +87,7 @@ nav ul li a:hover {
     -o-transform: translate(0,90px);
     -moz-transform: translate(0,90px);
     position: absolute;
-    margin-right: 500px;
+    margin-right: 530px;
   }
   .spisok1 {
   background-color: white;
@@ -103,8 +103,9 @@ nav ul li a:hover {
   -o-transform: translate(0,215px);
   -moz-transform: translate(0,215px);
   position: absolute;
-  margin-right: 500px;
+  margin-right: 530px;
 }
+
 .spisok2 {
 background-color: white;
 height: 100px;
@@ -119,8 +120,9 @@ transform: translate(0,340px);
 -o-transform: translate(0,340px);
 -moz-transform: translate(0,340px);
 position: absolute;
-margin-right: 500px;
+margin-right: 530px;
 }
+
 .spisok3 {
 background-color: white;
 height: 100px;
@@ -135,7 +137,7 @@ transform: translate(0,468px);
 -o-transform: translate(0,468px);
 -moz-transform: translate(0,468px);
 position: absolute;
-margin-right: 500px;
+margin-right: 530px;
 }
 .spisok4 {
 background-color: white;
@@ -151,7 +153,7 @@ transform: translate(0,595px);
 -o-transform: translate(0,595px);
 -moz-transform: translate(0,595px);
 position: absolute;
-margin-right: 500px;
+margin-right: 530px;
 }
 .spisok5 {
 background-color: white;
@@ -167,7 +169,7 @@ transform: translate(0,723px);
 -o-transform: translate(0,723px);
 -moz-transform: translate(0,723px);
 position: absolute;
-margin-right: 500px;
+margin-right: 530px;
 }
 
 .spisok6 {
@@ -184,7 +186,24 @@ transform: translate(0,90px);
 -o-transform: translate(0,90px);
 -moz-transform: translate(0,90px);
 position: absolute;
-margin-right: -500px;
+margin-right: -420px;
+}
+
+.spisok7 {
+background-color: white;
+height: 100px;
+width: 380px;
+font-size: 23px;
+border-radius: 15px;
+box-shadow: 0 2px 5px #d6d6d6;
+text-align: right;
+margin: 20px;
+transform: translate(0,215px);
+-webkit-transform: translate(0,215px);
+-o-transform: translate(0,215px);
+-moz-transform: translate(0,215px);
+position: absolute;
+margin-right: -420px;
 }
 
 
@@ -198,7 +217,7 @@ margin-right: -500px;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
  top: -23px;
- margin-left: -410px;
+ margin-left: -445px;
 }
 .text a  {
   display: block;
@@ -219,7 +238,7 @@ margin-right: -500px;
   border: 3px solid white;
   top: 117px;
   width: 80px;
-  margin-left: -243px;
+  margin-left: -259px;
 }
 
 .textghoul {
@@ -232,7 +251,7 @@ margin-right: -500px;
  -o-transform: translate(0,125px);
  -moz-transform: translate(0,125px);
  top: 146px;
- margin-left: -418px;
+ margin-left: -454px;
 }
 .textghoul a  {
   display: block;
@@ -252,7 +271,7 @@ margin-right: -500px;
   border-radius: 50%;
   top: 245px;
   width: 80px;
-  margin-left: -243px;
+  margin-left: -259px;
 }
 .textsanya {
  display: block;
@@ -264,7 +283,7 @@ margin-right: -500px;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
   top: 226px;
-  margin-left: -418px;
+  margin-left: -452px;
 }
 .textsanya a  {
   display: block;
@@ -284,7 +303,7 @@ margin-right: -500px;
   border-radius: 50%;
   top: 370px;
   width: 80px;
-  margin-left: -243px;
+  margin-left: -259px;
 }
 .textros {
   display: block;
@@ -296,7 +315,7 @@ margin-right: -500px;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 355px;
-  margin-left: -423px;
+  margin-left: -455px;
 }
 .textros a  {
   display: block;
@@ -316,7 +335,7 @@ margin-right: -500px;
   border-radius: 100px;
   top: 497px;
   width: 80px;
-  margin-left: -243px;
+  margin-left: -259px;
 }
 .textoleg {
   display: block;
@@ -328,7 +347,7 @@ margin-right: -500px;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 483px;
-  margin-left: -438px;
+  margin-left: -472px;
 }
 .textoleg a  {
   display: block;
@@ -348,7 +367,7 @@ margin-right: -500px;
   border-radius: 100px;
   top: 625px;
   width: 80px;
-  margin-left: -243px;
+  margin-left: -259px;
 }
 
 .textden {
@@ -361,7 +380,7 @@ margin-right: -500px;
     -o-transform: translate(0,170px);
     -moz-transform: translate(0,170px);
     top: 610px;
-    margin-left: -455px;
+    margin-left: -492px;
   }
   .textden a  {
     display: block;
@@ -381,7 +400,7 @@ margin-right: -500px;
     border-radius: 100px;
     top: 753px;
     width: 80px;
-    margin-left: -243px;
+    margin-left: -259px;
   }
 
   .texttim {
@@ -394,7 +413,7 @@ margin-right: -500px;
    -o-transform: translate(0,170px);
    -moz-transform: translate(0,170px);
    top: -23px;
-   margin-left: 560px;
+   margin-left: 483px;
   }
   .texttim a  {
     display: block;
@@ -415,5 +434,40 @@ margin-right: -500px;
     border: 3px solid white;
     top: 117px;
     width: 80px;
-    margin-left: 257px;
+    margin-left: 217px;
+  }
+
+  .textmisha {
+   display: block;
+   position: absolute;
+   text-align: center;
+   font-size: 23px;
+   transform: translate(0,125px);
+   -webkit-transform: translate(0,125px);
+   -o-transform: translate(0,125px);
+   -moz-transform: translate(0,125px);
+   top: 146px;
+   margin-left: 463px;
+  }
+  .textmisha a  {
+    display: block;
+    text-decoration: none;
+     color: #111111;
+     text-align: center;
+  }
+
+  .card-photomisha {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 1px;
+    transform: translate(-135px,0);
+    -webkit-transform: translate(-135px,0); /** Chrome & Safari **/
+    -o-transform: translate(-135px,0); /** Opera **/
+    -moz-transform: translate(-135px,0); /** Firefox **/
+    border-radius: 100px;
+    border: 3px solid white;
+    top: 242px;
+    width: 80px;
+    margin-left: 217px;
   }
