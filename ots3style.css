@@ -103,11 +103,3 @@ textarea:hover {
 
 
 
-@media screen and (max-width: 768px) {
-  textarea {
-    font-size: 20px;
-    width:90%;
-    bottom: top 200px;
-  }
-}
-
