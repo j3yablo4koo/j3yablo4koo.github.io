@@ -96,7 +96,18 @@ textarea:hover {
 
 .wtext {
   position: relative;
-  margin: 0 auto;
+  margin: 0px auto;
   top: 650px;
   height: 0;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  textarea {
+    font-size: 20px;
+    width:90%;
+    bottom: top 200px;
+  }
+}
+
