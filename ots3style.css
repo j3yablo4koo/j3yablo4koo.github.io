@@ -95,11 +95,8 @@ textarea:hover {
 
 
 .wtext {
-  margin-left: 450px;
-  transform: translate(0,-10px);
-  -webkit-transform: translate(0,-10px);
-  -o-transform: translate(0,-10px);
-  -moz-transform: translate(0,-10px);
-  position: fixed;
-  top: 959px;
+  position: relative;
+  margin: 0 auto;
+  top: 650px;
+  height: 0;
 }
