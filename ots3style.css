@@ -62,6 +62,7 @@ nav ul li a:hover {
 
 .input{
   margin: 1.4%;
+  font-size: 20px;
 }
 textarea {
   border: 1px solid #eee;
@@ -75,7 +76,7 @@ textarea {
 }
 textarea:hover {
   border: 1px solid #aaa;
-  transition: all 0.17s ease-out;
+  transition: 0.17s;
 }
 
 
@@ -91,8 +92,16 @@ textarea:hover {
   font-weight:600;
   border-radius:5px;
   width:30%;
+  -webkit-transition: 0.20s ease; /* Safari and Chrome */
+   -moz-transition: 0.20s ease; /* Firefox 4 */
+   -o-transition: 0.20s ease; /* Opera */
 }
 
+.button:hover {
+  cursor: pointer;
+  background-color: #5d7dde;
+  transition: all 0.20s ease-out;
+}
 
 .wtext {
   position: relative;
@@ -100,6 +109,3 @@ textarea:hover {
   top: 650px;
   height: 0;
 }
-
-
-
