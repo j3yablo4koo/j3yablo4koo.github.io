@@ -79,6 +79,9 @@ textarea:hover {
   transition: 0.17s;
 }
 
+textarea::placeholder {
+
+}
 
 .button {
   text-transform: uppercase;
@@ -108,4 +111,14 @@ textarea:hover {
   margin: 0px auto;
   top: 650px;
   height: 0;
+}
+
+@media (max-width: 768px) {
+  textarea::placeholder {
+    font-size: 20px;
+  }
+  .input{
+    margin: 1.4%;
+    font-size: 14px;
+  }
 }
