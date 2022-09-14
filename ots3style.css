@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   text-align: center;
@@ -19,7 +23,7 @@ nav::before {
   height: 50px;
   width: 100%;
   background: #353535;
-  position: absolute;
+  position: fixed;
   left: 0;
   z-index: -1;
 }
@@ -51,7 +55,6 @@ nav ul li a:hover {
 }
 
 
-
 .input{
   margin: 1.4%;
   font-size: 20px;
@@ -64,7 +67,7 @@ textarea {
   padding:15px;
   border-radius:15px;
   box-shadow:4px 4px 10px rgba(0,0,0,0.06);
-  height:150px;
+  height:160px;
 }
 textarea:hover {
   border: 1px solid #aaa;
@@ -98,6 +101,8 @@ textarea::placeholder {
   background-color: #5d7dde;
   transition: all 0.20s ease-out;
 }
+
+
 
 .wtext {
   margin: center;
