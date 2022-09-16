@@ -42,7 +42,6 @@ nav ul li {
 }
 
 nav ul li a {
-  margin-left: 10px;
   color: white;
   display: block;
   height: 50px;
@@ -61,17 +60,13 @@ nav ul li a:hover {
     justify-content: center;
   }
 
-.block_1 {
-  width: 400px;
-  height: 850px;
-  background: #f5f5f2;
-  border-radius: 15px;
+.blocks {
+  transform: translate(0,90px);
+  -webkit-transform: translate(0,90px);
+  -o-transform: translate(0,90px);
+  -moz-transform: translate(0,90px);
   position: absolute;
-  bottom: 20 auto;
-  transform: translate(0,80px);
-  -webkit-transform: translate(0,80px);
-  -o-transform: translate(0,80px);
-  -moz-transform: translate(0,80px);
+  margin-right: 530px;
 }
 
     .spisok {
@@ -88,7 +83,7 @@ nav ul li a:hover {
     -o-transform: translate(0,90px);
     -moz-transform: translate(0,90px);
     position: absolute;
-    margin-right: 530px;
+    margin-right: 500px;
   }
   .spisok1 {
   background-color: white;
@@ -104,7 +99,7 @@ nav ul li a:hover {
   -o-transform: translate(0,215px);
   -moz-transform: translate(0,215px);
   position: absolute;
-  margin-right: 530px;
+  margin-right: 500px;
 }
 
 .spisok2 {
@@ -121,7 +116,7 @@ transform: translate(0,340px);
 -o-transform: translate(0,340px);
 -moz-transform: translate(0,340px);
 position: absolute;
-margin-right: 530px;
+margin-right: 500px;
 }
 
 .spisok3 {
@@ -138,7 +133,7 @@ transform: translate(0,468px);
 -o-transform: translate(0,468px);
 -moz-transform: translate(0,468px);
 position: absolute;
-margin-right: 530px;
+margin-right: 500px;
 }
 .spisok4 {
 background-color: white;
@@ -154,7 +149,7 @@ transform: translate(0,595px);
 -o-transform: translate(0,595px);
 -moz-transform: translate(0,595px);
 position: absolute;
-margin-right: 530px;
+margin-right: 500px;
 }
 .spisok5 {
 background-color: white;
@@ -170,7 +165,7 @@ transform: translate(0,723px);
 -o-transform: translate(0,723px);
 -moz-transform: translate(0,723px);
 position: absolute;
-margin-right: 530px;
+margin-right: 500px;
 }
 
 .spisok6 {
@@ -187,7 +182,7 @@ transform: translate(0,90px);
 -o-transform: translate(0,90px);
 -moz-transform: translate(0,90px);
 position: absolute;
-margin-right: -420px;
+margin-right: -460px;
 }
 
 .spisok7 {
@@ -204,7 +199,7 @@ transform: translate(0,215px);
 -o-transform: translate(0,215px);
 -moz-transform: translate(0,215px);
 position: absolute;
-margin-right: -420px;
+margin-right: -460px;
 }
 
 .spisok8 {
@@ -221,7 +216,7 @@ transform: translate(0,340px);
 -o-transform: translate(0,340px);
 -moz-transform: translate(0,340px);
 position: absolute;
-margin-right: -420px;
+margin-right: -460px;
 }
 
 .text {
@@ -234,7 +229,7 @@ margin-right: -420px;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
  top: -23px;
- margin-left: -445px;
+ margin-left: -420px;
 }
 .text a  {
   display: block;
@@ -255,7 +250,7 @@ margin-right: -420px;
   border: 3px solid white;
   top: 117px;
   width: 80px;
-  margin-left: -259px;
+  margin-left: -244px;
 }
 
 .textghoul {
@@ -268,7 +263,7 @@ margin-right: -420px;
  -o-transform: translate(0,125px);
  -moz-transform: translate(0,125px);
  top: 146px;
- margin-left: -454px;
+ margin-left: -429px;
 }
 .textghoul a  {
   display: block;
@@ -288,7 +283,7 @@ margin-right: -420px;
   border-radius: 50%;
   top: 245px;
   width: 80px;
-  margin-left: -259px;
+  margin-left: -244px;
 }
 .textsanya {
  display: block;
@@ -300,7 +295,7 @@ margin-right: -420px;
  -o-transform: translate(0,170px);
  -moz-transform: translate(0,170px);
   top: 226px;
-  margin-left: -452px;
+  margin-left: -428px;
 }
 .textsanya a  {
   display: block;
@@ -320,7 +315,7 @@ margin-right: -420px;
   border-radius: 50%;
   top: 370px;
   width: 80px;
-  margin-left: -259px;
+  margin-left: -244px;
 }
 .textros {
   display: block;
@@ -332,7 +327,7 @@ margin-right: -420px;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 355px;
-  margin-left: -455px;
+  margin-left: -430px;
 }
 .textros a  {
   display: block;
@@ -352,7 +347,7 @@ margin-right: -420px;
   border-radius: 100px;
   top: 497px;
   width: 80px;
-  margin-left: -259px;
+  margin-left: -244px;
 }
 .textoleg {
   display: block;
@@ -364,7 +359,7 @@ margin-right: -420px;
   -o-transform: translate(0,170px);
   -moz-transform: translate(0,170px);
   top: 483px;
-  margin-left: -472px;
+  margin-left: -447px;
 }
 .textoleg a  {
   display: block;
@@ -384,7 +379,7 @@ margin-right: -420px;
   border-radius: 100px;
   top: 625px;
   width: 80px;
-  margin-left: -259px;
+  margin-left: -244px;
 }
 
 .textden {
@@ -397,7 +392,7 @@ margin-right: -420px;
     -o-transform: translate(0,170px);
     -moz-transform: translate(0,170px);
     top: 610px;
-    margin-left: -492px;
+    margin-left: -467px;
   }
   .textden a  {
     display: block;
@@ -417,7 +412,7 @@ margin-right: -420px;
     border-radius: 100px;
     top: 753px;
     width: 80px;
-    margin-left: -259px;
+    margin-left: -244px;z
   }
 
   .texttim {
@@ -430,7 +425,7 @@ margin-right: -420px;
    -o-transform: translate(0,170px);
    -moz-transform: translate(0,170px);
    top: -23px;
-   margin-left: 483px;
+   margin-left: 512px;
   }
   .texttim a  {
     display: block;
@@ -451,7 +446,7 @@ margin-right: -420px;
     border: 3px solid white;
     top: 117px;
     width: 80px;
-    margin-left: 217px;
+    margin-left: 236px;
   }
 
   .textmisha {
@@ -464,7 +459,7 @@ margin-right: -420px;
    -o-transform: translate(0,125px);
    -moz-transform: translate(0,125px);
    top: 146px;
-   margin-left: 444px;
+   margin-left: 472px;
   }
   .textmisha a  {
     display: block;
@@ -486,7 +481,7 @@ margin-right: -420px;
     border: 3px solid white;
     top: 242px;
     width: 80px;
-    margin-left: 217px;
+    margin-left: 236px;
   }
 
   .textrus {
@@ -499,7 +494,7 @@ margin-right: -420px;
    -o-transform: translate(0,125px);
    -moz-transform: translate(0,125px);
    top: 273px;
-   margin-left: 468px;
+   margin-left: 487px;
   }
   .textrus a  {
     display: block;
@@ -521,5 +516,5 @@ margin-right: -420px;
     border: 3px solid white;
     top: 367px;
     width: 80px;
-    margin-left: 217px;
+    margin-left: 236px;
   }
