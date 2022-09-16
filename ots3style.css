@@ -123,6 +123,7 @@ textarea::placeholder {
   nav ul li a {
     font-size: 26px;
     line-height: 100px;
+    height: 100px;
   }
   nav {
     width: 1000px;
