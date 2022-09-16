@@ -125,6 +125,8 @@ textarea::placeholder {
     width:38%;
     height: 47px;
     border-radius:9px;
-
+  }
+  .wtext{
+    font-size: 17px;
   }
 }
