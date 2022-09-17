@@ -537,6 +537,7 @@ margin-right: -460px;
       height: 85px;
     }
     nav ul li a {
+      margin-left: 10px;
       font-size: 25px;
       line-height: 85px;
       height: 85px;
