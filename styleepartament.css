@@ -41,3 +41,23 @@ nav ul li a:hover {
   background: #4169E1;
   transition: all 0.17s ease-out;
 }
+
+@media only screen and (max-device-width : 1280px) {
+  nav ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    height: 85px;
+  }
+  nav::before {
+    height: 85px;
+  }
+  nav ul li a {
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 85px;
+    height: 85px;
+  }
+  nav {
+    width: 100%;
+}
