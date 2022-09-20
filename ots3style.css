@@ -115,16 +115,16 @@ textarea::placeholder {
     margin: 0;
     padding: 0;
     list-style: none;
-    height: 85px;
+    height: 88px;
   }
   nav::before {
-    height: 85px;
+    height: 88px;
   }
   nav ul li a {
     margin-left: 10px;
-    font-size: 25px;
-    line-height: 85px;
-    height: 85px;
+    font-size: 28px;
+    line-height: 88px;
+    height: 88px;
   }
   nav {
     width: 1000px;
