@@ -121,6 +121,7 @@ textarea::placeholder {
     height: 88px;
   }
   nav ul li a {
+    padding: 0 30.3px;
     margin-left: 10px;
     font-size: 25.8px;
     line-height: 88px;
