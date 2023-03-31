@@ -94,6 +94,9 @@ a {
 .svg{
   margin: 0 auto;
 }
+.block{
+  margin-top: -60px;
+}
 .cm_logo{
   user-select: none;
   display: block;
