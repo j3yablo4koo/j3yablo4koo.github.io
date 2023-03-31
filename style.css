@@ -1,4 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
+  height: 1675px;
   margin: 0 auto;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -77,6 +81,9 @@ nav ul li a {
   text-decoration: none;
   padding: 25px;
 }
+a {
+  text-decoration: none;
+}
 .menutextclr {
   color: white;
   transition: all 0.3s ease;
@@ -109,9 +116,66 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
 }
-
+.invite_button a{
+  transition: all 0.3s ease;
+  width: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffa000;
+  border-radius: 12px;
+  padding-bottom:  14px;
+}
+.invite_button a svg{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: -10px;
+  top: -1px;
+}
+.bttm{
+  padding-bottom: 200px;
+}
+.commands{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #303030;
+}
+.commands_sp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #303030;
+}
+}
 .menubtn:hover{
   border-radius: 12px;
   background-color: #FFFFFF20;
+}
+.lights1{
+  position: relative;
+  top: -100px;
+}
+
+.invite_button a:hover{
+  background-color: #f70;
 }
