@@ -10,6 +10,7 @@ body{
   z-index: 5;
 }
 .menu{
+  user-select: none;
   text-align: center;
   height: 107px;
   background: rgb(255,158,0);
@@ -25,6 +26,7 @@ body{
   height: 70px;
 }
 .container{
+  user-select: none;
   z-index: 999;
   padding-left: 120px;
 }
@@ -45,6 +47,7 @@ body{
   left: -3px;
 }
 nav{
+  user-select: none;
   z-index: 999;
   display: flex;
   align-items: center;
@@ -55,15 +58,18 @@ nav{
   font-weight: 600;
 }
 nav ul{
+  user-select: none;
   z-index: 999;
   list-style: none;
 }
 nav ul li{
+  user-select: none;
   z-index: 999;
   float: left;
   padding-left: -150px;
 }
 nav ul li a {
+  user-select: none;
   z-index: 999;
   display: flex;
   justify-content: center;
