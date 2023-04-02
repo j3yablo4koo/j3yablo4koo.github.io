@@ -157,11 +157,15 @@ img{
 .gpt_icon{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+.gptpng{
+  position: relative;
+  left: -50px;
 }
 .cmd_1{
   position: relative;
-  left: -380px;
+  left: -150px;
   width: 580px;
   text-align: left;
 }
@@ -183,12 +187,11 @@ img{
 .moder{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  position: relative;
+  justify-content: center;
 }
 .cmd_2{
   position: relative;
-  left: 280px;
+  left: 90px;
   width: 580px;
   text-align: left;
   top: 20px;
@@ -201,15 +204,23 @@ img{
   color: #303030;
   align-items: center;
   top: -15px;
+  left: -100px;
 }
 .cmd_subtitle2{
+  top: -0px;
   line-height: 1.5;
   position: relative;
+  left: -100px;
 }
 .cmd_ssubtitle2{
   top: 7px;
   line-height: 1.5;
   position: relative;
+  left: -100px;
+}
+.moderpng{
+  position: relative;
+  left: -10px;
 }
 .menubtn:hover{
   border-radius: 12px;
@@ -217,7 +228,7 @@ img{
 }
 .lights1{
   position: relative;
-  top: -100px;
+  top: -0px;
 }
 .invite_button a:hover{
   background-color: #f70;
