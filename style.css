@@ -84,6 +84,9 @@ nav ul li a {
 a {
   text-decoration: none;
 }
+img{
+  user-select: none;
+}
 .menutextclr {
   color: white;
   transition: all 0.3s ease;
@@ -98,7 +101,6 @@ a {
   margin-top: -60px;
 }
 .cm_logo{
-  z-index: 999;
   user-select: none;
   display: block;
   margin-left: auto;
@@ -150,27 +152,65 @@ a {
   top: -1px;
 }
 .bttm{
-  padding-bottom: 400px;
+  padding-bottom: 100px;
 }
-.commands{
+.gpt_icon{
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: #303030;
+  justify-content: space-around;
 }
-.commands_sp{
+.cmd_1{
+  position: relative;
+  left: -380px;
+  width: 580px;
+  text-align: left;
+}
+.cmd_title1{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  position: relative;
+  font-size: 32px;
+  font-weight: 400;
   color: #303030;
+  align-items: center;
+  top: -15px;
+}
+.cmd_subtitle1{
+  top: -0px;
+  line-height: 1.5;
+  position: relative;
 }
 
+.moder{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.cmd_2{
+  position: relative;
+  left: 280px;
+  width: 580px;
+  text-align: left;
+  top: 20px;
+}
+.cmd_title2{
+  display: flex;
+  position: relative;
+  font-size: 32px;
+  font-weight: 400;
+  color: #303030;
+  align-items: center;
+  top: -15px;
+}
+.cmd_subtitle2{
+  line-height: 1.5;
+  position: relative;
+}
+.cmd_ssubtitle2{
+  top: 7px;
+  line-height: 1.5;
+  position: relative;
+}
 .menubtn:hover{
   border-radius: 12px;
   background-color: #FFFFFF20;
@@ -179,7 +219,6 @@ a {
   position: relative;
   top: -100px;
 }
-
 .invite_button a:hover{
   background-color: #f70;
 }
