@@ -2,6 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  background-color: #ffffff;
   height: 1675px;
   margin: 0 auto;
   padding: 0;
