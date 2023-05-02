@@ -11,6 +11,13 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+var particlesContainer = document.getElementById("particles-container");
+
+// Проверяем тип устройства и скрываем контейнер при необходимости
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  particlesContainer.style.display = "none";
+}
+
 particlesJS('particles-js',
 
   {

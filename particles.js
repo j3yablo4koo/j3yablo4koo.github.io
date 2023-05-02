@@ -7,6 +7,13 @@
 /* v2.0.0
 /* ----------------------------------------------- */
 
+var particlesContainer = document.getElementById("particles-container");
+
+// Проверяем тип устройства и скрываем контейнер при необходимости
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  particlesContainer.style.display = "none";
+}
+
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
