@@ -167,6 +167,7 @@ img{
   left: -70px;
 }
 .cmd_1{
+  top: -10px;
   position: relative;
   left: -150px;
   width: 450px;
@@ -189,6 +190,12 @@ img{
   display: flex;
   justify-content: flex-start;
 }
+.cmd_ssubtitle1{
+  top: 7px;
+  line-height: 1.5;
+  position: relative;
+}
+
 
 .moder{
   display: flex;
