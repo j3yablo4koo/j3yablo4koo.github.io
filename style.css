@@ -257,13 +257,39 @@ img{
   max-height: 100%;
 }
 
+.endsvgtext{
+  z-index: 999;
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+  top: 350px;
+  left: 1300px;
+}
+
+
 .endsvg{
   position: relative;
   top: 5px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .particles-container {
     display: none;
+  }
+  .svg{
+    flex-direction: column;
+  }
+  .cmd_1{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    left: 0px;
+  }
+  .gpt_icon{
+    flex-direction: column;
+    text-align: center;
+  }
+  .container123{
+    left: 0px;
   }
 }
